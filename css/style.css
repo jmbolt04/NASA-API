@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url("img/rocket.jpg");
+}
+img{
+  display: none;
+  margin: 0 auto;
+  height: 1000px;
+  width: 1000px;
+}
+/* .hidden{
+  display: none;
+} */
+iframe{
+  display: none;
+  height: 1000px;
+  width: 1000px;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  color: white;
+}
+h3{
+  display: none;
+  color: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
